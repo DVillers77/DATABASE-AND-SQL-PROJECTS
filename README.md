@@ -21,3 +21,19 @@ and a mastery of core database concepts.
   the "Trust server certificate" option. This foundational setup allows for
   direct execution of SQL queries and database management for subsequent
   lessons.
+
+#### **Step 224: TUTORIAL PART 1 - DATABASE & TABLE CREATION** 🏗️
+
+- **Date**: November 1, 2025
+- **Objective**: Follow the first video tutorial to understand basic T-SQL
+  syntax and create the foundational database and initial table for the Zoo
+  project.
+- **Outcome**:
+  - Executed the T-SQL command **`CREATE DATABASE DB_Zoo;`** to establish the
+    project environment.
+  - Used the **`USE DB_Zoo;`** command to set the correct database context.
+  - Created the **`Animalia`** table with two columns:
+    - **`ID`**: Set as the **`PRIMARY KEY`** and **`IDENTITY(1,1)`** for
+      auto-incrementing unique identification.
+    - **`Animalia_Type`**: Set as **`VARCHAR(50) NOT NULL`** to store the animal
+      classification type.
