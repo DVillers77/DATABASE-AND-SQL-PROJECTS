@@ -37,3 +37,18 @@ and a mastery of core database concepts.
       auto-incrementing unique identification.
     - **`Animalia_Type`**: Set as **`VARCHAR(50) NOT NULL`** to store the animal
       classification type.
+
+#### **Step 226: TUTORIAL PART 2 - INSERT INTO & `class` TABLE** ➕
+
+- **Date**: November 2, 2025
+- **Objective**: Learn the **`INSERT INTO`** statement to populate tables with
+  data and define a second classification table.
+- **Outcome**:
+  - Mastered the syntax for adding rows using
+    `INSERT INTO table (column) VALUES (value)`.
+  - Successfully inserted initial values ('Vertebrae', 'Invertebrae') into the
+    **`Animalia`** table.
+  - Created the **`class`** table, defining a primary key **`class_ID`** that
+    uses **`IDENTITY(100,1)`** to start auto-incrementing at 100.
+  - Populated the **`class`** table with multiple classification types (Bird,
+    Mammal, Fish, etc.).
