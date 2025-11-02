@@ -52,3 +52,19 @@ and a mastery of core database concepts.
     uses **`IDENTITY(100,1)`** to start auto-incrementing at 100.
   - Populated the **`class`** table with multiple classification types (Bird,
     Mammal, Fish, etc.).
+
+#### **Step 230: TUTORIAL PART 3 - UPDATE, REPLACE, and `tbl_persons`** 🔄
+
+- **Date**: November 2, 2025
+- **Objective**: Learn to permanently modify data, temporarily transform data,
+  and create a third table for personnel information.
+- **Outcome**:
+  - Mastered the **`UPDATE`** command for permanent data changes, emphasizing
+    the critical role of the **`WHERE`** clause for safety.
+  - Used the **`REPLACE()`**, **`UPPER()`**, and **`COUNT()`** functions within
+    `SELECT` statements for temporary data transformation and aggregation.
+  - Applied advanced filtering with the **`BETWEEN`** operator and the
+    **`LIKE`** operator using the **`%`** wildcard.
+  - Created and populated the **`tbl_persons`** table, which includes fields for
+    first name (`persons_fname`), last name (`persons_lname`), and contact
+    number (`persons_contact`).
