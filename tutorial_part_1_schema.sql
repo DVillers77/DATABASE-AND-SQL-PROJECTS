@@ -13,3 +13,23 @@ INSERT INTO tbl_animalia
 ;
 
 SELECT * FROM tbl_animalia;
+
+CREATE TABLE tbl_class (
+	class_id INT PRIMARY KEY NOT NULL IDENTITY (100,1),
+	class_type VARCHAR(50) NOT NULL
+);
+SELECT * FROM tbl_class;
+
+INSERT INTO tbl_class
+	(class_type)
+	VALUES
+	('bird'),
+	('reptilian'),
+	('mammal'),
+	('arthropod'),
+	('fish'),
+	('worm'),
+	('cnidaria'),
+	('echinodrem')
+;
+SELECT * FROM tbl_class;
