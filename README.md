@@ -68,3 +68,21 @@ and a mastery of core database concepts.
   - Created and populated the **`tbl_persons`** table, which includes fields for
     first name (`persons_fname`), last name (`persons_lname`), and contact
     number (`persons_contact`).
+
+#### **Step 237: TUTORIAL PART 4 - DANGER COMMANDS & NEW TABLES** ⚠️
+
+- **Date**: November 2, 2025
+- **Objective**: Learn data deletion and table structure removal, and expand the
+  database schema with four new tables.
+- **Outcome**:
+  - Mastered the **`DELETE`** and **`DROP TABLE`** commands, understanding the
+    danger of omitting the `WHERE` clause with `DELETE`.
+  - Used **`ORDER BY`** (`DESC`) to sort query results and applied the
+    single-character wildcard (`_`) with the `LIKE` operator.
+  - Created four new tables: **`tbl_order`**, **`tbl_care`**,
+    **`tbl_nutrition`**, and **`tbl_habitat`**.
+  - Learned to customize the auto-increment starting value using
+    **`IDENTITY(start_value, increment)`**.
+  - Successfully inserted data into **`tbl_order`** and **`tbl_care`**, noting
+    that **`tbl_care`** requires a manual, unique primary key (`care_1`,
+    `care_2`, etc.) because its ID is defined as `VARCHAR`.
