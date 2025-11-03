@@ -86,3 +86,23 @@ and a mastery of core database concepts.
   - Successfully inserted data into **`tbl_order`** and **`tbl_care`**, noting
     that **`tbl_care`** requires a manual, unique primary key (`care_1`,
     `care_2`, etc.) because its ID is defined as `VARCHAR`.
+
+#### **Step 239: TUTORIAL PART 5 - NORMALIZATION & FOREIGN KEYS** 🔑
+
+- **Date**: November 3, 2025
+- **Objective**: Complete the data insertion for remaining lookup tables and
+  introduce the critical concept of **database normalization** by creating the
+  central **`tbl_species`** table with Foreign Keys.
+- **Outcome**:
+  - Finalized population of **`tbl_nutrition`**, **`tbl_habitat`**, and
+    **`tbl_specialist`**.
+  - Understood **Normalization** as the process of breaking data into distinct,
+    non-redundant tables.
+  - Created the core **`tbl_species`** table, which connects all lookup tables.
+  - Successfully defined **Foreign Key (FK)** constraints using the
+    `FOREIGN KEY ... REFERENCES` syntax.
+  - Implemented **`ON UPDATE CASCADE`** and **`ON DELETE CASCADE`** for data
+    integrity across related tables, ensuring changes to a Primary Key update
+    all associated Foreign Keys.
+  - Populated **`tbl_species`** with initial animal data, using numerical IDs
+    (Foreign Keys) to reference the corresponding lookup tables.
