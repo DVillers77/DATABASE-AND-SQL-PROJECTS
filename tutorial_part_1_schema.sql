@@ -203,6 +203,9 @@ SELECT
 	WHERE species_name = 'ghost bat'
 ;
 
+SELECT * FROM tbl_nutrition
+INNER JOIN tbl_species ON tbl_species.species_nutrition = tbl_nutrition.nutrition_id;
+SELECT * FROM tbl_species;
 
 INSERT INTO tbl_persons
 	(persons_fname, persons_lname, persons_contact)

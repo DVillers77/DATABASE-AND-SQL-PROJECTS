@@ -126,3 +126,18 @@ and a mastery of core database concepts.
   - Corrected the `tbl_nutrition` data value for ID 2200 from 'replace the
     straw' to **'raw fish'** and updated the 'brown bear' Foreign Key link to
     match the instructor's expected result.
+
+#### **Step 242: SQL JOIN ASSIGNMENT** 🤝
+
+- **Date**: November 3, 2025
+- **Objective**: Practice the fundamental **`INNER JOIN`** operation by linking
+  two key tables in the database.
+- **Outcome**:
+  - Successfully executed an `INNER JOIN` between **`tbl_nutrition`** (Primary
+    Key: `nutrition_id`) and **`tbl_species`** (Foreign Key:
+    `species_nutrition`).
+  - Confirmed the correct syntax for the join condition:
+    `ON tbl_species.species_nutrition = tbl_nutrition.nutrition_id`.
+  - The resulting query output a comprehensive table combining columns from both
+    tables, successfully demonstrating the functionality and integrity of the
+    Foreign Key constraints established in the previous tutorials.
