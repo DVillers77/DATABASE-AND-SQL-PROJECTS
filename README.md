@@ -160,3 +160,24 @@ and a mastery of core database concepts.
     strings (`VARCHAR`) for concatenation.
   - The script now includes robust checks using **`IF EXISTS`** for reliable
     table dropping before reconstruction.
+
+#### **Step 251: TUTORIAL PART 8 - T-SQL LOGIC AND FLOW CONTROL** ⚙️
+
+- **Date**: November 4, 2025
+- **Objective**: Implement flow control (logic) and advanced formatting
+  techniques in T-SQL.
+- **Outcome**:
+  - Mastered using **T-SQL Operators** for comparisons (`<`, `<=`, `!=`, `>`,
+    `>=`) and combining conditions (`AND`, `OR`).
+  - Successfully implemented **Conditional Flow Control** using the
+    `IF...ELSE IF...ELSE` structure to execute blocks of code (`BEGIN...END`)
+    based on variable values.
+  - Learned to use **ASCII character functions** (`CHAR()`) for output
+    formatting:
+    - **`CHAR(13)`**: Inserts a **Carriage Return** (line break).
+    - **`CHAR(9)`**: Inserts a **Tab** space for indentation.
+  - Confirmed that the `+` operator performs **numeric addition** when used
+    between two integer variables, reinforcing the need for the `CONVERT`
+    function when combining numbers with strings.
+  - Added **multi-line block comments** (`/* ... */`) for documenting complex
+    script sections.
