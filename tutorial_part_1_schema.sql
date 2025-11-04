@@ -34,13 +34,6 @@ INSERT INTO tbl_class
 ;
 SELECT * FROM tbl_class;
 
-UPDATE tbl_class SET class_type = 'bird' WHERE class_type ='birds'
-
-SELECT REPLACE(class_type, 'birds', 'bird') FROM tbl_class;
-
-SELECT UPPER(class_type) FROM	tbl_class WHERE class_type = 'bird';
-
-SELECT COUNT(class_type) FROM	tbl_class WHERE class_type = 'bird';
 
 CREATE TABLE tbl_order (
 	order_id INT PRIMARY KEY NOT NULL IDENTITY (1,1),
@@ -104,15 +97,6 @@ INSERT INTO tbl_care
 	('vitamins and marrow', 3500)
 ;
 	SELECT * FROM tbl_nutrition;
-
-DELETE FROM tbl_nutrition
-WHERE nutrition_id >= 2208;
-
-SELECT * FROM tbl_nutrition WHERE nutrition_type = 'mixture of fruit and rice';
-
-UPDATE tbl_nutrition
-SET nutrition_cost = 800
-WHERE nutrition_id = 2202;
 
 INSERT INTO tbl_habitat
 	(habitat_type, habitat_cost)
@@ -186,14 +170,6 @@ SELECT
 	WHERE species_name = 'brown bear'
 ;
 
-UPDATE tbl_nutrition
-SET nutrition_type = 'raw fish'
-WHERE nutrition_id = 2200;
-
-UPDATE tbl_species
-SET species_nutrition = 2200
-WHERE species_name = 'brown bear';
-
 SELECT
 	a1.species_name, a2.habitat_type, a2.habitat_cost,
 	a3.nutrition_type, a3.nutrition_cost
@@ -206,6 +182,13 @@ SELECT
 SELECT * FROM tbl_nutrition
 INNER JOIN tbl_species ON tbl_species.species_nutrition = tbl_nutrition.nutrition_id;
 SELECT * FROM tbl_species;
+
+DROP TABLE tbl_species, tbl_animalia, tbl_care, tbl_class, tbl_habitat, tbl_nutrition, tbl_order, tbl_specialist;
+
+IF EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES tbl_species)
+	DROP TABLE tbl_species, tbl_animalia, tbl_care, tbl_class, tbl_habitat, tbl_nutrition, tbl_order, tbl_specialist;
+
+
 
 INSERT INTO tbl_persons
 	(persons_fname, persons_lname, persons_contact)

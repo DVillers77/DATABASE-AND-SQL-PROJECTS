@@ -141,3 +141,22 @@ and a mastery of core database concepts.
   - The resulting query output a comprehensive table combining columns from both
     tables, successfully demonstrating the functionality and integrity of the
     Foreign Key constraints established in the previous tutorials.
+
+#### **Step 247: TUTORIAL PART 7 - T-SQL FUNDAMENTALS** 🧠
+
+- **Date**: November 4, 2025
+- **Objective**: Transition from pure SQL commands to **Transact-SQL (T-SQL)**,
+  focusing on logic, scripting, and variables.
+- **Outcome**:
+  - Understood the difference between **Implicit** (legacy
+    `FROM table A, table B WHERE` syntax) and **Explicit** (modern
+    `INNER JOIN ... ON` syntax) JOINs, confirming **Explicit** is best practice.
+  - Began working with T-SQL, Microsoft's proprietary extension to SQL.
+  - Learned to use the **`PRINT`** command to output messages.
+  - Mastered **T-SQL variables** by using `DECLARE @variable DATATYPE` and
+    `SET @variable = value`.
+  - Practiced **string concatenation** (`+` operator) and the necessity of the
+    **`CONVERT`** function to temporarily change numeric data types (`INT`) into
+    strings (`VARCHAR`) for concatenation.
+  - The script now includes robust checks using **`IF EXISTS`** for reliable
+    table dropping before reconstruction.
