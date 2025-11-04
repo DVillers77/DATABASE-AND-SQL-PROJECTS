@@ -106,3 +106,23 @@ and a mastery of core database concepts.
     all associated Foreign Keys.
   - Populated **`tbl_species`** with initial animal data, using numerical IDs
     (Foreign Keys) to reference the corresponding lookup tables.
+
+#### **Step 241: TUTORIAL PART 6 - INNER JOIN AND DATA RETRIEVAL** ⚙️
+
+- **Date**: November 3, 2025
+- **Objective**: Learn to use the **`INNER JOIN`** statement to combine data
+  from the main table and all lookup tables to retrieve descriptive, non-numeric
+  information.
+- **Outcome**:
+  - Demonstrated that **`SELECT *`** is inadequate for normalized data.
+  - Mastered the **`INNER JOIN`** syntax, using the **Foreign Key -> Primary
+    Key** relationship to merge tables.
+  - Successfully wrote a complex query using seven separate **Table Aliases
+    (A1...A7)** and join conditions to pull all related data (Animalia type,
+    Class type, Nutrition type, etc.) for a specific species.
+  - Created a query to retrieve supplementary fields (like `nutrition_cost` and
+    `habitat_cost`) from lookup tables that are not stored in the main species
+    table.
+  - Corrected the `tbl_nutrition` data value for ID 2200 from 'replace the
+    straw' to **'raw fish'** and updated the 'brown bear' Foreign Key link to
+    match the instructor's expected result.
