@@ -161,7 +161,7 @@ and a mastery of core database concepts.
   - The script now includes robust checks using **`IF EXISTS`** for reliable
     table dropping before reconstruction.
 
-#### **Step 251: TUTORIAL PART 8 - T-SQL LOGIC AND FLOW CONTROL** ⚙️
+#### **Step 247: TUTORIAL PART 8 - T-SQL LOGIC AND FLOW CONTROL** ⚙️
 
 - **Date**: November 4, 2025
 - **Objective**: Implement flow control (logic) and advanced formatting
