@@ -181,3 +181,26 @@ and a mastery of core database concepts.
     function when combining numbers with strings.
   - Added **multi-line block comments** (`/* ... */`) for documenting complex
     script sections.
+
+#### **Step 251: TUTORIAL PART 9 - INTRODUCING STORED PROCEDURES** 💾
+
+- **Date**: November 5, 2025
+- **Objective**: Refactor database creation and core application queries into
+  reusable T-SQL **Stored Procedures** (SP).
+- **Outcome**:
+  - Consolidated the entire schema into **`createZooDB`** and the primary query
+    into **`get_animal_info`**.
+  - **Resolved all Compilation and Dependency Errors:**
+    - Implemented **idempotency checks** (`IF EXISTS...DROP PROCEDURE`) to
+      prevent the `Msg 2714` error.
+    - Corrected the **cascading foreign key failure** by ensuring the tables
+      were created in the proper parent-to-child order.
+    - Fixed the persistent **"Invalid object name" error** (`Msg 208`) in
+      `get_animal_info` by adding the explicit schema prefix **`dbo.`** to all
+      table references.
+  - **Cleaned Data Integrity:**
+    - Corrected the erroneous data directly at the point of insertion inside
+      `createZooDB`.
+    - Fixed the `tbl_nutrition` entry for `nutrition_id 2200` to be **'raw
+      fish'** (instead of the typo 'replace the straw').
+    - Ensured the 'brown bear' record correctly links to `nutrition_id 2200`.
