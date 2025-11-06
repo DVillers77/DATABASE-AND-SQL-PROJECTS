@@ -275,3 +275,15 @@ and a mastery of core database concepts.
   `tbl_specialist`) to retrieve specific contact information.
 - **Outcome**: Successfully retrieved the first name, last name, and contact
   number for the specialist who provides care for the 'penguin' species.
+
+#### **Step 279: ZOO DATABASE ASSIGNMENT 7 (Create Custom Database)** 🏗️
+
+- **Date**: November 6, 2025
+- **Objective**: Complete the final, open-ended assignment by creating a custom
+  database with two linked tables and writing a query against it.
+- **Best Practice Note**: Used **snake_case** for all SQL object naming
+  (tables/columns) to adhere to industry best practices, as kebab-case can cause
+  syntax errors in SQL.
+- **Outcome**: Created the `music_library_db` with `tbl_artist` (Parent, PK) and
+  `tbl_album` (Child, PK + FK). Inserted data and created a multi-table
+  `INNER JOIN` query to retrieve data using the common `artist_id` attribute.
