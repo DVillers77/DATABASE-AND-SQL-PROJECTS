@@ -248,3 +248,12 @@ and a mastery of core database concepts.
   comparison operator (`<=`) to filter numeric data.
 - **Outcome**: Successfully retrieved the `nutrition_type` entries from
   `tbl_nutrition` where the `nutrition_cost` is less than or equal to 600.00.
+
+#### **Step 276: ZOO DATABASE ASSIGNMENT 4 (INNER JOIN and BETWEEN)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a `SELECT` statement that requires an `INNER JOIN`
+  across two tables and uses the `BETWEEN` operator for range filtering.
+- **Outcome**: Successfully retrieved `species_names` by joining `tbl_species`
+  and `tbl_nutrition` on `species_nutrition` and filtering for records where
+  `nutrition_id` is between 2202 and 2206.
