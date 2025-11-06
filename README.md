@@ -232,3 +232,11 @@ and a mastery of core database concepts.
   from the specified table (`tbl_habitat`).
 - **Outcome**: Successfully retrieved all rows and columns using the core SQL
   query: `SELECT * FROM tbl_habitat;`
+
+#### **Step 274: ZOO DATABASE ASSIGNMENT 2 (WHERE Clause)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a `SELECT` statement using the `WHERE` clause to filter
+  data based on a specific numeric value.
+- **Outcome**: Successfully retrieved the `species_name` entries from
+  `tbl_species` where the `species_order` column value is equal to 3.
