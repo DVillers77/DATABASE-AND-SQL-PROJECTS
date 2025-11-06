@@ -257,3 +257,12 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully retrieved `species_names` by joining `tbl_species`
   and `tbl_nutrition` on `species_nutrition` and filtering for records where
   `nutrition_id` is between 2202 and 2206.
+
+#### **Step 277: ZOO DATABASE ASSIGNMENT 5 (INNER JOIN and ALIASES)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a `SELECT` statement that joins two tables and uses
+  column aliases to rename the output columns for improved readability.
+- **Outcome**: Successfully retrieved `species_name` and `nutrition_type` by
+  joining `tbl_species` and `tbl_nutrition`, aliasing the output columns as
+  "Species Name: " and "Nutrition Type: ".
