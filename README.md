@@ -224,3 +224,11 @@ and a mastery of core database concepts.
     with the **`GROUP BY`** clause to return summarized data, requiring the
     `ORDER BY` clause to reference the full function expression instead of the
     column alias due to editor constraints.
+
+#### **Step 273: ZOO DATABASE ASSIGNMENT 1 (SELECT Statement)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a fundamental `SELECT` statement to return all data
+  from the specified table (`tbl_habitat`).
+- **Outcome**: Successfully retrieved all rows and columns using the core SQL
+  query: `SELECT * FROM tbl_habitat;`
