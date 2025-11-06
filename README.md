@@ -240,3 +240,11 @@ and a mastery of core database concepts.
   data based on a specific numeric value.
 - **Outcome**: Successfully retrieved the `species_name` entries from
   `tbl_species` where the `species_order` column value is equal to 3.
+
+#### **Step 275: ZOO DATABASE ASSIGNMENT 3 (WHERE Clause with Comparison)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a `SELECT` statement using the `WHERE` clause with a
+  comparison operator (`<=`) to filter numeric data.
+- **Outcome**: Successfully retrieved the `nutrition_type` entries from
+  `tbl_nutrition` where the `nutrition_cost` is less than or equal to 600.00.
