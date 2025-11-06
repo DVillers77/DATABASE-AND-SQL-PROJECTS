@@ -266,3 +266,12 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully retrieved `species_name` and `nutrition_type` by
   joining `tbl_species` and `tbl_nutrition`, aliasing the output columns as
   "Species Name: " and "Nutrition Type: ".
+
+#### **Step 278: ZOO DATABASE ASSIGNMENT 6 (Multi-Table INNER JOIN)** 📝
+
+- **Date**: November 6, 2025
+- **Objective**: Compose a `SELECT` statement requiring two sequential
+  `INNER JOIN` operations across three tables (`tbl_species`, `tbl_care`,
+  `tbl_specialist`) to retrieve specific contact information.
+- **Outcome**: Successfully retrieved the first name, last name, and contact
+  number for the specialist who provides care for the 'penguin' species.
