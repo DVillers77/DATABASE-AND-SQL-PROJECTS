@@ -204,3 +204,23 @@ and a mastery of core database concepts.
     - Fixed the `tbl_nutrition` entry for `nutrition_id 2200` to be **'raw
       fish'** (instead of the typo 'replace the straw').
     - Ensured the 'brown bear' record correctly links to `nutrition_id 2200`.
+
+#### **Step 268: TUTORIAL PART 10 - AGGREGATE FUNCTIONS AND EXCEPTION HANDLING** 🛡️
+
+- **Date**: November 6, 2025
+- **Objective**: Implement professional-grade error handling using the
+  `TRY/CATCH` block and finalize practice with Aggregate Functions (`COUNT`,
+  `AVG`, `SUM`).
+- **Outcome**:
+  - **Exception Handling**: The `get_animal_info` stored procedure was
+    refactored with a **`TRY...CATCH`** structure to handle non-existent animal
+    names.
+  - **Modernized Error Control**: Replaced the legacy **`RAISERROR`** command
+    with the modern **`THROW`** command (error number 50001) for explicit,
+    predictable control flow and cleaner error reporting.
+  - **Data Validation**: Used the **`COUNT()`** aggregate function within an
+    `IF` condition to check for zero results before attempting the main query.
+  - **Aggregate Functions**: Practiced using `COUNT()`, `SUM()`, and `AVG()`
+    with the **`GROUP BY`** clause to return summarized data, requiring the
+    `ORDER BY` clause to reference the full function expression instead of the
+    column alias due to editor constraints.
