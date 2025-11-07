@@ -350,3 +350,11 @@ and a mastery of core database concepts.
   2.  Created a stored procedure (`Person.Address_GetCityByID`) using an
       `OUTPUT` parameter (`@CityName`) and successfully returned the value
       'Raleigh' to the calling batch.
+
+#### **Step 323: SQL SELECT DISTINCT CHALLENGE** 🔍
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `SELECT DISTINCT` statement to retrieve only unique,
+  non-duplicate values from a column.
+- **Outcome**: Successfully executed `SELECT DISTINCT City FROM Person.Address`
+  to get a complete list of unique cities in the database.
