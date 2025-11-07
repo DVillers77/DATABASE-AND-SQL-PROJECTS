@@ -307,3 +307,12 @@ and a mastery of core database concepts.
   `dbo.uspGetAddress` stored procedure, which returned data from the
   `Person.Address` table. The procedure was then deleted using the
   `DROP PROCEDURE IF EXISTS` command.
+
+#### **Step 312: SCHEMA ASSIGNMENT** 🛡️
+
+- **Date**: November 7, 2025
+- **Objective**: Practice creating and deleting a new database schema to
+  understand how objects can be compartmentalized and permissions managed.
+- **Outcome**: Successfully created the `ACADEMY_HR` schema, authorized it to
+  `dbo`, located it in the Object Explorer, and then deleted it using the
+  `DROP SCHEMA IF EXISTS` command.
