@@ -434,3 +434,15 @@ and a mastery of core database concepts.
     calculated fields (`Gross Pay`, `Total Deductions`, `Net Pay`) to force the
     final output display to the appropriate two decimal places, solving the
     intermediate precision issue.
+
+#### **Step 331: SCHOOL ASSIGNMENT** 🏫
+
+- **Date**: November 7, 2025
+- **Objective**: Complete a comprehensive assignment involving creating a new
+  database, setting up three tables with primary keys, adding foreign keys
+  post-creation using `ALTER TABLE`, populating data (`INSERT`), updating data
+  (`UPDATE`), and running complex queries (`JOIN` and `ORDER BY`).
+- **Outcome**: Successfully created the `db_school` database and tables
+  (`Classes`, `Students`, `Instructors`), enforced relationships, and executed a
+  final `INNER JOIN` query to display all classes, students, and their assigned
+  instructors.
