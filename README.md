@@ -377,3 +377,11 @@ and a mastery of core database concepts.
   `Production.Product` to find the minimum price ($0.00) and the maximum price
   ($3578.27). Noted that $0.00 often indicates non-sellable or component items
   in the database.
+
+#### **Step 326: SQL LIKE CHALLENGE** 🔡
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `LIKE` operator with the wildcard character (`%`) to
+  perform partial text matching.
+- **Outcome**: Successfully executed a query against the `Person.Person` table
+  to find all last names beginning with the letter 'S'.
