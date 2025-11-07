@@ -394,3 +394,12 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully executed a query against the `Person.Person` table
   using `WHERE LastName LIKE '[ABC]%'` to find all last names beginning with A,
   B, or C.
+
+#### **Step 328: SQL BETWEEN CHALLENGE** 🔢
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `BETWEEN` operator to filter numeric data within a
+  defined, inclusive range.
+- **Outcome**: Successfully executed a query against the `Production.Product`
+  table using `WHERE ListPrice BETWEEN 100.00 AND 150.00` to find all products
+  within that price range.
