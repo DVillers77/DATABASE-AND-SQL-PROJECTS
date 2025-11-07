@@ -418,3 +418,19 @@ and a mastery of core database concepts.
   - Populated all tables and executed a complex query using three
     **`INNER JOIN`** statements to calculate and display the **Total Pay** for
     all employees (`hours_worked * hourly_rate`).
+
+#### **Step 330: PAYROLL DATABASE OPTIONAL CHALLENGE** 💰
+
+- **Date**: November 7, 2025
+- **Objective**: Enhance the payroll database by adding a `deductions` table and
+  calculating **Net Pay** (Gross Pay minus Total Deductions).
+- **Outcome**:
+  - Successfully created the `deductions` table and established the Foreign Key
+    relationship to the `employee` table.
+  - Executed a complex final query using multiple `INNER JOIN`s and the
+    **`SUM()`** aggregate function within a **`GROUP BY`** clause to calculate
+    total deductions per employee.
+  - **Modernization/Fix**: Correctly used **`CAST(... AS MONEY)`** on the
+    calculated fields (`Gross Pay`, `Total Deductions`, `Net Pay`) to force the
+    final output display to the appropriate two decimal places, solving the
+    intermediate precision issue.
