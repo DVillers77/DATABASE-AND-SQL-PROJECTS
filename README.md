@@ -358,3 +358,12 @@ and a mastery of core database concepts.
   non-duplicate values from a column.
 - **Outcome**: Successfully executed `SELECT DISTINCT City FROM Person.Address`
   to get a complete list of unique cities in the database.
+
+#### **Step 324: SQL SELECT TOP CHALLENGE** 🔟
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `SELECT TOP` clause to limit the number of rows
+  returned by a query.
+- **Outcome**: Successfully executed a query using `SELECT TOP 10` against the
+  `Production.Product` table, ordered by `ListPrice DESC`, to retrieve the ten
+  most expensive products.
