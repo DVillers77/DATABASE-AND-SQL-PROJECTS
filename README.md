@@ -403,3 +403,18 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully executed a query against the `Production.Product`
   table using `WHERE ListPrice BETWEEN 100.00 AND 150.00` to find all products
   within that price range.
+
+#### **Step 329: PAYROLL MANAGEMENT SYSTEM TUTORIAL** 💼
+
+- **Date**: November 7, 2025
+- **Objective**: Complete a full-stack database development exercise by
+  designing, creating, populating, and querying a normalized database for a
+  Payroll Management System.
+- **Outcome**:
+  - Successfully created the `db_payroll` database with four tables (`salary`,
+    `job`, `employee`, `payroll`).
+  - Correctly implemented Primary Keys (`IDENTITY`) and Foreign Keys (`FK_...`)
+    to enforce **data integrity** (normalization).
+  - Populated all tables and executed a complex query using three
+    **`INNER JOIN`** statements to calculate and display the **Total Pay** for
+    all employees (`hours_worked * hourly_rate`).
