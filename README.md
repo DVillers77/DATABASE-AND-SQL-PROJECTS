@@ -316,3 +316,12 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully created the `ACADEMY_HR` schema, authorized it to
   `dbo`, located it in the Object Explorer, and then deleted it using the
   `DROP SCHEMA IF EXISTS` command.
+
+#### **Step 316: SSMS ASSIGNMENT** 🛑
+
+- **Date**: November 7, 2025
+- **Objective**: Practice implementing the `TRY/CATCH` block for error handling
+  by intentionally generating a "divide by zero" exception.
+- **Outcome**: Successfully executed the code, which skipped the
+  error-generating `TRY` block and returned the error details (number,
+  procedure, and message) using built-in error functions in the `CATCH` block.
