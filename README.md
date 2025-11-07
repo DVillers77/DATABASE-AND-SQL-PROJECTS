@@ -287,3 +287,13 @@ and a mastery of core database concepts.
 - **Outcome**: Created the `music_library_db` with `tbl_artist` (Parent, PK) and
   `tbl_album` (Child, PK + FK). Inserted data and created a multi-table
   `INNER JOIN` query to retrieve data using the common `artist_id` attribute.
+
+#### **Step 301: INSTALLING ADVENTUREWORKS (Implied Assignment)** 🏗️
+
+- **Date**: November 7, 2025
+- **Objective**: Follow along with the instructor to install the Microsoft
+  sample database, AdventureWorks, for use in future assignments.
+- **Outcome**: Downloaded the `AdventureWorks2017.bak` file, moved it to the SQL
+  Server backup directory (`MSSQL\Backup`), and successfully used the **Restore
+  Database** function in SSMS to install the database locally. The database is
+  now accessible under the `Databases` node.
