@@ -325,3 +325,14 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully executed the code, which skipped the
   error-generating `TRY` block and returned the error details (number,
   procedure, and message) using built-in error functions in the `CATCH` block.
+
+#### **Step 319: STORED PROCEDURE ASSIGNMENT** ⚙️
+
+- **Date**: November 7, 2025
+- **Objective**: Create a stored procedure that uses an input parameter to
+  filter data dynamically, demonstrating the use of variables and the `LIKE`
+  operator with a wildcard.
+- **Outcome**: Created and executed the stored procedure
+  `Person.Address_GetByCityPartial` which accepts the `@City` parameter, using
+  the modern naming convention (omitting `usp_`), and successfully filtered the
+  `Person.Address` table for cities starting with the argument 'New'.
