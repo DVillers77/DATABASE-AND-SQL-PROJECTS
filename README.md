@@ -336,3 +336,17 @@ and a mastery of core database concepts.
   `Person.Address_GetByCityPartial` which accepts the `@City` parameter, using
   the modern naming convention (omitting `usp_`), and successfully filtered the
   `Person.Address` table for cities starting with the argument 'New'.
+
+#### **Step 320: PASSING PARAMETERS ASSIGNMENT** 📤
+
+- **Date**: November 7, 2025
+- **Objective**: Demonstrate stored procedure functionality with multiple input
+  parameters and practice the use of `OUTPUT` parameters to return single
+  values.
+- **Outcome**:
+  1.  Created a stored procedure (`Person.Address_GetByCityAndPostal`) using two
+      input parameters (`@City`, `@PostalCode`) and successfully filtered the
+      `Person.Address` table.
+  2.  Created a stored procedure (`Person.Address_GetCityByID`) using an
+      `OUTPUT` parameter (`@CityName`) and successfully returned the value
+      'Raleigh' to the calling batch.
