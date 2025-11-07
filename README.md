@@ -367,3 +367,13 @@ and a mastery of core database concepts.
 - **Outcome**: Successfully executed a query using `SELECT TOP 10` against the
   `Production.Product` table, ordered by `ListPrice DESC`, to retrieve the ten
   most expensive products.
+
+#### **Step 325: SQL MIN/MAX CHALLENGE** 💰
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `MIN()` and `MAX()` aggregate functions to find the
+  extreme values in a dataset.
+- **Outcome**: Successfully executed a combined query against
+  `Production.Product` to find the minimum price ($0.00) and the maximum price
+  ($3578.27). Noted that $0.00 often indicates non-sellable or component items
+  in the database.
