@@ -297,3 +297,13 @@ and a mastery of core database concepts.
   Server backup directory (`MSSQL\Backup`), and successfully used the **Restore
   Database** function in SSMS to install the database locally. The database is
   now accessible under the `Databases` node.
+
+#### **Step 309: STORED PROCEDURE ASSIGNMENT** 💾
+
+- **Date**: November 7, 2025
+- **Objective**: Perform a full lifecycle exercise of a basic stored procedure
+  within the AdventureWorks database.
+- **Outcome**: Successfully created, executed, and viewed the
+  `dbo.uspGetAddress` stored procedure, which returned data from the
+  `Person.Address` table. The procedure was then deleted using the
+  `DROP PROCEDURE IF EXISTS` command.
