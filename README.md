@@ -385,3 +385,12 @@ and a mastery of core database concepts.
   perform partial text matching.
 - **Outcome**: Successfully executed a query against the `Person.Person` table
   to find all last names beginning with the letter 'S'.
+
+#### **Step 327: SQL WILDCARD CHALLENGE** 🔠
+
+- **Date**: November 7, 2025
+- **Objective**: Use the `[]` wildcard operator to match a single character that
+  falls within a defined set or range.
+- **Outcome**: Successfully executed a query against the `Person.Person` table
+  using `WHERE LastName LIKE '[ABC]%'` to find all last names beginning with A,
+  B, or C.
