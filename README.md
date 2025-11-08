@@ -481,3 +481,16 @@ and a mastery of core database concepts.
   commenting on the differences between **INNER, LEFT, RIGHT, FULL, and CROSS
   JOINs**, solidifying understanding of when to use each type for accurate data
   retrieval.
+
+#### **Step 337: LIBRARY MANAGEMENT SYSTEM PROJECT PART FOUR (Stored Procedures)** ⚙️
+
+- **Date**: November 8, 2025
+- **Objective**: Create stored procedures to automate common library reporting
+  tasks, improving efficiency and security.
+- **Outcome**: Successfully created three stored procedures
+  (`SP_CopiesAtSharpstown`, `SP_CopiesAtEachBranch`, `SP_BorrowersWithNoLoans`)
+  using `INNER JOIN`, `GROUP BY`, and `LEFT JOIN` with a `WHERE` clause
+  (`BL.CardNo IS NULL`) to:
+  1.  Count copies of a specific book at a specific branch.
+  2.  Count copies of a specific book across all owning branches.
+  3.  Identify all borrowers who currently have no active loans.
