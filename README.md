@@ -446,3 +446,16 @@ and a mastery of core database concepts.
   (`Classes`, `Students`, `Instructors`), enforced relationships, and executed a
   final `INNER JOIN` query to display all classes, students, and their assigned
   instructors.
+
+#### **Step 334: LIBRARY MANAGEMENT SYSTEM PROJECT PART ONE** 📚
+
+- **Date**: November 8, 2025
+- **Objective**: Create a fully normalized seven-table schema (`PUBLISHER`,
+  `BOOKS`, `BORROWER`, `LIBRARY_BRANCH`, `BOOK_AUTHORS`, `BOOK_COPIES`,
+  `BOOK_LOANS`) based on an ER diagram and populate all tables with specified
+  data constraints.
+- **Outcome**: Successfully created the `db_library_project` database, defined
+  all Primary and Foreign Keys, and populated all seven tables exactly to
+  specification. Implemented robust, idempotent T-SQL cleanup protocols
+  (`ALTER DATABASE... ROLLBACK IMMEDIATE`) to guarantee successful execution
+  despite client-side locking issues.
