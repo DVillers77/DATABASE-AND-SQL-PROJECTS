@@ -469,3 +469,15 @@ and a mastery of core database concepts.
   been checked out and, crucially, identified books that have never been loaned
   (appearing with `NULL` values for loan and borrower details), demonstrating a
   complete view of the data model.
+
+#### **Step 336: LIBRARY MANAGEMENT SYSTEM PROJECT PART THREE** 🔗
+
+- **Date**: November 8, 2025
+- **Objective**: Query book titles and authors, and create a comprehensive
+  reference for SQL join types.
+- **Outcome**: Successfully executed the required query using a **LEFT JOIN** to
+  return _all_ 20 book titles and their assigned authors (or `NULL` if
+  unassigned). Created a powerful reference script demonstrating and heavily
+  commenting on the differences between **INNER, LEFT, RIGHT, FULL, and CROSS
+  JOINs**, solidifying understanding of when to use each type for accurate data
+  retrieval.
