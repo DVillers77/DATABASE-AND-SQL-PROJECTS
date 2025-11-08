@@ -459,3 +459,13 @@ and a mastery of core database concepts.
   specification. Implemented robust, idempotent T-SQL cleanup protocols
   (`ALTER DATABASE... ROLLBACK IMMEDIATE`) to guarantee successful execution
   despite client-side locking issues.
+
+#### **Step 335: LIBRARY MANAGEMENT SYSTEM PROJECT PART TWO** 🧩
+
+- **Date**: November 8, 2025
+- **Objective**: Analyze table relationships using advanced SQL join techniques.
+- **Outcome**: Successfully executed a **FULL OUTER JOIN** across the
+  `BOOK_LOANS`, `BORROWER`, and `BOOKS` tables. This confirmed which books have
+  been checked out and, crucially, identified books that have never been loaned
+  (appearing with `NULL` values for loan and borrower details), demonstrating a
+  complete view of the data model.
